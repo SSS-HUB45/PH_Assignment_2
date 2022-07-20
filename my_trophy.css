@@ -27,14 +27,14 @@ body {
   line-height: 70px;
   margin-top: 111px;
   margin-left: 106px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .tagline p {
   color: #ffffff;
   width: 506px;
   height: 78px;
   margin-left: 106px;
-  margin-bottom: 30px;
+  margin-bottom: 55px;
 }
 .player_img {
   position: absolute;
@@ -105,20 +105,97 @@ body {
   margin-top: 30px;
   margin-left: 30px;
 }
-/* --- Bottom Section */
-.blog_img img {
+.bottom_sec {
   position: absolute;
   width: 312px;
-  height: 175px;
+  height: 362px;
   left: 476px;
   top: 826px;
-  border-radius: 10px 10px 0px 0px;
 }
-.blog_img p {
+.bottom_sec p {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.transfer {
+  display: inline-block;
+  text-align: center;
   color: #161616;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  height: 18px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 7px 2px;
+  margin: 20px 192px 15px 20px;
+  border: 1px solid #161616;
+}
+.bottom_sec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.pic {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 10px;
+  margin-right: 165px;
+}
+.blog_img {
+  width: 340px;
+  height: 360px;
+}
+/* --- Footer Section --- */
+.ft_bottom {
   position: absolute;
-  width: 272px;
-  height: 54px;
-  left: 496px;
-  top: 1068px;
+  width: 1500px;
+  height: 480px;
+  left: 0px;
+  top: 1790px;
+  background: #161616;
+}
+.ft_bottom h1 {
+  color: #ffffff;
+  font-size: 35px;
+  margin: 130px 752px 254px 753px;
+}
+/* .ft_bottom h2 {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 5px 52px 154px 153px;
+} */
+
+.ft_info {
+  height: 24px;
+  width: 898px;
+  position: absolute;
+  left: 21.94%;
+  right: 21.94%;
+  top: 63.92%;
+  bottom: 5.13%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ft_info a {
+  color: #b9b9b9;
+  text-decoration: none;
+}
+.ft_bottom hr {
+  position: absolute;
+  width: 1320px;
+  height: 0px;
+  left: 90px;
+  top: 230px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.social {
+  position: absolute;
+  width: 920px;
+  height: 0px;
+  left: 190px;
+  top: 390px;
+  margin-left: 530px;
+  font-size: 35px;
 }
