@@ -1,10 +1,17 @@
+/****** --- My 1st Responsive Website --- ******/
+
+/********* --- Font Add --- *********/
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500;700&family=Ubuntu&display=swap");
 
+/**** --- Main Body Section ****/
 body {
   background-color: 11eE1E;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-/* --- Top Section --- */
+
+/*** --- Top Section --- ***/
 .top_sec {
   position: absolute;
   width: 1321px;
@@ -55,7 +62,9 @@ body {
   margin-top: 111px;
   margin-left: 106px;
 }
-/* --- Center Section --- */
+/* ----------------------------------------------------- */
+
+/*** --- Center Section --- ***/
 .center_sec {
   position: absolute;
   width: 312px;
@@ -105,12 +114,16 @@ body {
   margin-top: 30px;
   margin-left: 30px;
 }
+
+/*** --- Bttom Section --- ***/
 .bottom_sec {
   position: absolute;
   width: 312px;
   height: 362px;
   left: 476px;
   top: 826px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .bottom_sec p {
   margin-top: 5px;
@@ -130,10 +143,6 @@ body {
   margin: 20px 192px 15px 20px;
   border: 1px solid #161616;
 }
-.bottom_sec {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
 .pic {
   display: flex;
   align-items: center;
@@ -145,10 +154,12 @@ body {
   width: 340px;
   height: 360px;
 }
+/* ----------------------------------------------------- */
+
 /* --- Footer Section --- */
 .ft_bottom {
   position: absolute;
-  width: 1500px;
+  width: 1640px;
   height: 480px;
   left: 0px;
   top: 1790px;
@@ -159,12 +170,6 @@ body {
   font-size: 35px;
   margin: 130px 752px 254px 753px;
 }
-/* .ft_bottom h2 {
-  color: #ffffff;
-  font-size: 20px;
-  margin: 5px 52px 154px 153px;
-} */
-
 .ft_info {
   height: 24px;
   width: 898px;
@@ -198,4 +203,41 @@ body {
   top: 390px;
   margin-left: 530px;
   font-size: 35px;
+}
+/* ----------------------------------------------------- */
+
+/****** --- My 2nd Responsive Website --- ******/
+.teams_show {
+  position: absolute;
+  width: 910px;
+  height: 242px;
+  left: 546px;
+  right: 450px;
+  top: 846px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.teams_play {
+  display: flex;
+  align-items: center;
+}
+.team_schedule {
+  align-items: center;
+}
+
+/* --- Stadium --- */
+.stadium_img {
+  position: absolute;
+  width: 481px;
+  height: 413px;
+  left: 10px;
+  top: 1263px;
+}
+.stadium {
+  width: 481px;
+  height: 813px;
+  right: 1820px;
+  top: 1183px;
+  margin-top: -340px;
+  margin-left: 420px;
 }
