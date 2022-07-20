@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500;700&family=Ubuntu&display=swap");
+
+body {
+  background-color: 11eE1E;
+  font-family: "Poppins", sans-serif;
+}
+/* --- Top Section --- */
+.top_sec {
+  position: absolute;
+  width: 1321px;
+  height: 646px;
+  left: 140px;
+  top: 50px;
+  right: 24px;
+  background: #161616;
+  border-radius: 30px;
+}
+.top_sec img {
+  width: 581px;
+  height: 613px;
+}
+.tagline h1 {
+  color: #ffffff;
+  width: 531px;
+  height: 240px;
+  font-size: 60px;
+  line-height: 70px;
+  margin-top: 111px;
+  margin-left: 106px;
+  margin-bottom: 20px;
+}
+.tagline p {
+  color: #ffffff;
+  width: 506px;
+  height: 78px;
+  margin-left: 106px;
+  margin-bottom: 30px;
+}
+.player_img {
+  position: absolute;
+  width: 881px;
+  height: 613px;
+  left: 660px;
+  top: 33px;
+}
+.btn {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  width: 187px;
+  height: 56px;
+  background: #dd0000;
+  border-radius: 5px;
+  padding: 16px 25px;
+  margin-top: 111px;
+  margin-left: 106px;
+}
+/* --- Center Section --- */
+.center_sec {
+  position: absolute;
+  width: 312px;
+  height: 312px;
+  left: 140px;
+  top: 826px;
+  background: #161616;
+  border-radius: 10px;
+}
+.match {
+  display: inline-block;
+  text-align: center;
+  color: #161616;
+  text-decoration: none;
+  width: 246px;
+  height: 22px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 18px 3px;
+  margin-top: 43px;
+  margin-left: 30px;
+}
+.group {
+  display: inline-block;
+  text-align: center;
+  color: #161616;
+  text-decoration: none;
+  width: 246px;
+  height: 22px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 18px 3px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.blog {
+  display: inline-block;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  width: 246px;
+  height: 22px;
+  background: #dd0000;
+  border-radius: 10px;
+  padding: 18px 3px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+/* --- Bottom Section */
+.blog_img img {
+  position: absolute;
+  width: 312px;
+  height: 175px;
+  left: 476px;
+  top: 826px;
+  border-radius: 10px 10px 0px 0px;
+}
+.blog_img p {
+  color: #161616;
+  position: absolute;
+  width: 272px;
+  height: 54px;
+  left: 496px;
+  top: 1068px;
+}
