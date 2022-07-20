@@ -159,7 +159,7 @@ body {
 /* --- Footer Section --- */
 .ft_bottom {
   position: absolute;
-  width: 1640px;
+  width: 1510px;
   height: 480px;
   left: 0px;
   top: 1790px;
@@ -207,6 +207,7 @@ body {
 /* ----------------------------------------------------- */
 
 /****** --- My 2nd Responsive Website --- ******/
+
 .teams_show {
   position: absolute;
   width: 910px;
@@ -224,8 +225,9 @@ body {
 .team_schedule {
   align-items: center;
 }
+/* ----------------------------------------------------- */
 
-/* --- Stadium --- */
+/*** --- Stadium Section --- ***/
 .stadium_img {
   position: absolute;
   width: 481px;
