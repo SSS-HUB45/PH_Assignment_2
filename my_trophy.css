@@ -252,8 +252,30 @@ body {
 /** *** --- Media Queries --- *** **/
 /* --- Mobile Devices --- */
 @media only screen and (max-width: 688px) {
+  .player_img {
+    width: 100%;
+  }
   .top_sec {
     width: 100%;
     overflow: hidden;
+  }
+  .tagline h1 {
+    margin-left: 60px;
+    font-size: 17px;
+  }
+  .tagline p {
+    margin-right: 60px;
+    font-size: 7px;
+  }
+  .img {
+    width: fit-content;
+    height: fit-content;
+  }
+  .center_sec {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bottom_sec .blog_img .transfer .pic {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
